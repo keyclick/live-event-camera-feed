@@ -1,0 +1,4 @@
+dv-processing==1.7.9
+tensorflow==2.18.0
+numpy==1.26.4
+opencv-python==4.11.0
