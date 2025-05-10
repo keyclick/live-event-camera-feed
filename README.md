@@ -1,6 +1,7 @@
-# Live Event Camera Feed with Real-Time Pose Detection
+## Live Event Camera Feed with Real-Time Pose Detection
 
-This project captures and visualizes real-time data from an **event-based camera** using the `dv-processing` SDK. It also applies human pose estimation via **TensorFlow MoveNet**, overlaying pose keypoints live as the data streams in. The captured anchor points can be stored for further processing and converted into standard formats such as MP4 or JPEG using publicly available tools.
+This project captures and visualizes real-time data from an event-based camera using the `dv-processing` SDK. It integrates TensorFlow MoveNet to perform human pose estimation, overlaying pose keypoints as the data streams live. Originally developed to assist in analyzing **human gait and posture**, the system was designed to capture anchor points of patients in real-time—enabling early detection of abnormalities such as gait instability, changes in walking patterns, or postural issues. The captured data can later be processed into formats like MP4 or JPEG using publicly available libraries for further analysis or reporting.
+
 
 ---
 
